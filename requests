@@ -1,0 +1,3 @@
+import requests
+
+login = requests.post("https://matrix.bpulse.org/_matrix/client/r0/login", data='{"type":"m.login.password", "user":"replybot", "password":"replybot"}')
